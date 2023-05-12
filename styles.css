@@ -1,0 +1,194 @@
+body {
+    background-color: #0f073e;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1 {
+    color:rgb(62, 145, 161) ;
+}
+h2 {
+    color:rgb(70, 161, 180) ;
+}
+h3 {
+    color:rgb(87, 185, 205) ;
+}
+h4 {
+    color:rgb(104, 201, 220) ;
+}
+h5 {
+    color:rgb(117, 212, 231) ;
+}
+.earth-container{
+    margin: auto;
+    width: 202px;
+    border: 0px solid green;
+}
+.earth {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color:lightblue;
+    border-radius: 50%;
+    display: inline-block;
+    /* background: repeating-linear-gradient(180deg,red 10%,red 5.1%,white 11.1%,white 22.2%); */
+    overflow: hidden;
+  }
+  .lat1{
+    
+    background-color:rgb(227, 236, 240) ;
+    color: blue;
+    position: absolute;
+    left:50%;
+      top:0%;
+      transform:translate(-50%, 0%);
+
+  }
+  .lat2{
+    background-color:rgb(161, 214, 177) ;
+    position: absolute;
+    left:50%;
+      top:30%;
+      transform:translate(-50%, -30%);
+
+  }
+  .lat3{
+    background-color:rgb(255, 230, 0) ;
+    position: absolute;
+    left:50%;
+      top:50%;
+      transform:translate(-50%, -50%);
+ 
+  }
+  .lat4{
+    background-color:rgb(0, 138, 0) ;
+    position: absolute;
+    left:50%;
+      top:80%;
+      transform:translate(-50%, -80%);
+ 
+  }
+  .lat5{
+    background-color:rgb(220, 255, 255) ;
+    position: absolute;
+    left:50%;
+      top:100%;
+      transform:translate(-50%, -100%);
+
+  }
+  /* .button1 {
+    left: 50%;
+    margin: auto;
+    background-color: #4CAF50;
+    color: rgb(170, 3, 3);
+  } */
+  .button-1 {
+    transition-duration: 0.4s;
+    border: 0px;
+    background-color: transparent;
+    padding-inline: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  height: 40px;
+  }
+  
+  .button-1:hover {
+    /* background-color: #bad9e7; Green */
+     color: rgb(240, 32, 32); 
+  }
+  .button-2 {
+    transition-duration: 0.4s;
+    border: 0px;
+    background-color: transparent; 
+    padding-inline: 100px;
+    padding-top: 5px;
+    padding-bottom: 45px;
+    
+  }
+  
+   .button-2:hover {
+    /* background-color: #037039; Green */
+     color: white; 
+   }
+  .button-3 {
+    border: 0px;
+    transition-duration: 0.4s;
+    background-color: transparent;
+    padding-inline: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .button-3:hover {
+    /* background-color: #afa54c; Green */
+     color: rgb(243, 23, 23);
+  }
+  .button-4 {
+    transition-duration: 0.4s;
+    border: 0px;
+    background-color: transparent;
+    padding-inline: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .button-4:hover {
+    /* background-color: #4CAF50; Green */
+     color: white; 
+  }
+  .button-5 {
+    transition-duration: 0.4s;
+    border: 0px;
+    background-color: transparent;
+    padding-inline: 100px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    height: 10px;
+   
+  }
+  
+  .button-5:hover {
+    /* background-color: #93c9c4; Green */
+    color: rgb(226, 21, 21);
+  }
+
+  .resultImage {
+    border: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+height: 250px;
+width: 250px;
+position: relative;
+top: 20px;
+
+
+border-radius: 3%;
+  }
+
+  /* .nightSky {
+position: relative;
+top: 70%;
+  } */
+
+  div.polaroid {
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+margin-bottom: 100px;
+border: 2px solid white;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 300px;
+width: 250px;
+position: relative;
+top: 40px;
+border-radius: 3%;
+  }
+
+  div.container {
+text-align: center;
+padding: 100px 5px;
+
+  }
